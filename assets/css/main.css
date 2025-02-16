@@ -1,0 +1,60 @@
+/* --var-col-vert:#009900;
+    --var-col-rouge:#990000;
+    --var-col-blanc:#FFF;
+    --var-col-noir:#000;
+    --var-police-1:'Pacifico';
+    --var-police-2:'Roboto'; */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Pacifico", serif;
+}
+p, a, li {
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    background-color: #990000;
+}
+nav ul {
+    margin-left: 60%;
+}
+nav h1 {
+    margin-left: 10%;
+}
+#hero h1 {
+    font-size: 500%;
+    font-style: normal;
+}
+.green {
+    color: #009900;
+}
+#hero {
+    background-image: url('../images/pizza-2810589_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#hero h1 {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+#hero .btn {
+    background-color: #990000;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50px;
+}
+
+#services {
+    background-color: #990000;
+}
+
+div.desc {
+    background-color: #5c0000;
+}
+
+footer {
+    background-color: #990000;
+    color: #FFF;
+}
